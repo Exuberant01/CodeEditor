@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  .description {
+    font-size: 1em;
+    margin-bottom: 2em;
+  }
+  
+  .github-button {
+    background-color: #24292e;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .github-button:hover {
+    background-color: #181a1b;
+  }
+  
+  .code-editor {
+    width: 80%;
+    height: 300px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-family: monospace;
+    font-size: 1em;
+  }
+  
+  .code-output {
+    width: 80%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    margin-top: 1em;
+  }
+  
+  pre {
+    margin: 0;
+    padding: 0;
+  }
